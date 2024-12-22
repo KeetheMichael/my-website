@@ -1,0 +1,20 @@
+p {
+font-family: "EB Garamond", serif;
+}
+.navbar a, .navdiv a, .logo a { text-decoration: none; }
+.navbar{
+    background-color: aqua; font-family: "EB Garamond"; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+ul{
+    list-style: none;
+}
+.item {display: inline-block;}
+.item a{
+    color: white; font-size: 20px; font-weight: bold; margin-right: 15px;
+}
